@@ -1,7 +1,7 @@
 class Problem1 {
     public static int getMissingElement(int []arr) {
         int low = 0;
-        int high = arr.length;
+        int high = arr.length - 1;
         int k = 1; // TO find the generalized missing element in an array.
         while(low<=high) {
             int mid = low + (high -low)/2;
